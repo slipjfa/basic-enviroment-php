@@ -39,10 +39,10 @@ echo -e "\n---Install Skype---\n"
 apt-get install skype
 echo -e "\n---Install Chrome---\n"
 apt-get install google-chrome-stable
-echo -e "\n---Install SoapUI---\n"
-apt-get install soapui
+#echo -e "\n---Install SoapUI---\n"
+#apt-get install soapui
 echo -e "\n---Install Mysql Workbench repository---\n"
-apt-get install mysql-workbench-gpl
+apt-get install mysql-workbench
 
 echo " \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ "
 echo "Congratulations your installation was completed successfully."
