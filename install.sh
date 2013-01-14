@@ -33,8 +33,8 @@ echo -en "Preparing to update repository list"; sleep 1; echo -en "."; sleep 1; 
 
 echo -e "\n---Install LAMP---\n"
 apt-get install lamp-server^
-echo -e "\n---Install Sublime Text 2---\n"
-apt-get install sublime-text-2
+echo -e "\n---Install Sublime Text---\n"
+apt-get install sublime-text
 echo -e "\n---Install Skype---\n"
 apt-get install skype
 echo -e "\n---Install Chrome---\n"
