@@ -18,7 +18,7 @@ echo -en "Preparing to add new repositories"; sleep 1; echo -en "."; sleep 1; ec
 		add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
 	echo -e "\n---Adding Google repository---\n"
 		wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
-		sh -c 'echo -e "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+		sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
 	echo -e "\n---Adding SoapUI repository---\n"
 		add-apt-repository ppa:upubuntu-com/web
 	echo -e "\n---Adding Mysql Workbench repository---\n"
