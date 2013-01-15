@@ -2,7 +2,7 @@
 set -e
 clear
 
-if [[ $UID -ne 0 ]]; then
+if [[ "$UID" -ne 0 ]]; then
 	echo "You need to be root!"
 	sleep 1
 	echo "!!!STUPID!!!"
