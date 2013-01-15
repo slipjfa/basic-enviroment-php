@@ -41,8 +41,12 @@ echo -e "\n---Install Chrome---\n"
 apt-get install google-chrome-stable
 #echo -e "\n---Install SoapUI---\n"
 #apt-get install soapui
-echo -e "\n---Install Mysql Workbench repository---\n"
+echo -e "\n---Install Mysql Workbench---\n"
 apt-get install mysql-workbench
+echo -e "\n---Install GIT---\n"
+apt-get install git
+echo -e "\n---Install GIT flow---\n"
+apt-get install git-flow
 
 echo " \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ \o/ "
 echo "Congratulations your installation was completed successfully."
