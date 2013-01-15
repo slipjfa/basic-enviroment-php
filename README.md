@@ -1,15 +1,15 @@
 # Download basic programs to developers php
 
-To execute this program:
-1. Download _install.sh_
-2. Go to download path
-3. Run command _./install.sh_ or */bin/YOUR_SHELL install.sh*
+To execute this program:<br>
+1. Download _install.sh_<br>
+2. Go to download path<br>
+3. Run command _./install.sh_ or */bin/YOUR_SHELL install.sh*<br>
 
-Porgrams:
-1. LAMP
-2. Sublime Text
-3. Skype
-4. Chrome
-5. Mysql Workbench
-6. GIT
-7. GIT flow
+Porgrams:<br>
+1. LAMP<br>
+2. Sublime Text<br>
+3. Skype<br>
+4. Chrome<br>
+5. Mysql Workbench<br>
+6. GIT<br>
+7. GIT flow<br>
