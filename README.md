@@ -3,9 +3,10 @@ Download basic repositories/programs to developers php
 
 To execute this program:<br>
 ----------------------------
-	_./install.sh_ 
-or 
-	*/bin/YOUR_SHELL install.sh*<br>
+	./install.sh
+or<br>
+------
+	/bin/YOUR_SHELL install.sh<br>
 
 Porgrams:<br>
 1. LAMP<br>
