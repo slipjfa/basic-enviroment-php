@@ -44,7 +44,16 @@ apt-get install google-chrome-stable
 echo -e "\n---Install Mysql Workbench---\n"
 apt-get install mysql-workbench
 echo -e "\n---Install GIT---\n"
-apt-get install git
+apt-get install git -y
+echo -e "Type your git user name"
+read USER
+echo -e "Type your git e-mail"
+read MAIL
+echo -en "Registering user $USER, please wait"; sleep 1; echo -en "."; sleep 1; echo -en "."; sleep 1; echo -e ".";
+git config --global user.name "$USER"
+git config --global user.email $MAIL
+git config --global merge.tool vimdiff
+git config --global core.editor subl
 echo -e "\n---Install GIT flow---\n"
 apt-get install git-flow
 
